@@ -1,0 +1,20 @@
+[tile]
+
+[object]
+
+[item]
+
+tieronelootboxlb=Ящик с Добычей 1-го Уровня
+tiertwolootboxlb=Ящик с Добычей 2-го Уровня
+tierthreelootboxlb=Ящик с Добычей 3-го Уровня
+tierfourlootboxlb=Ящик с Добычей 4-го Уровня
+tierfivelootboxlb=Ящик с Добычей 5-го Уровня
+
+[itemtooltip]
+
+lootboxlbtip=Откройте меня и получите добычу, соответствующую вашему текущему прогрессу!
+
+[mob]
+
+[buff]
+

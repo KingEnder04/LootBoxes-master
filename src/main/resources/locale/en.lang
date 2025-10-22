@@ -1,0 +1,24 @@
+[tile]
+
+[object]
+
+[item]
+
+tieronelootboxlb=Tier 1 Loot Box
+tiertwolootboxlb=Tier 2 Loot Box
+tierthreelootboxlb=Tier 3 Loot Box
+tierfourlootboxlb=Tier 4 Loot Box
+tierfivelootboxlb=Tier 5 Loot Box
+randomfoodbaglb=Random Food Bag
+randompotionbottlelb=Random Potion Bottle
+
+[itemtooltip]
+
+lootboxlbtip=Open me for loot based off your current progress!
+foodbaglbtip=Open me for 3 random sets of food!
+potionbottlelbtip=Open me for 3 random sets of potions!
+
+[mob]
+
+[buff]
+
