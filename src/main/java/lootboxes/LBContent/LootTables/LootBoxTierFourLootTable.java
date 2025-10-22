@@ -23,9 +23,4 @@ public class LootBoxTierFourLootTable extends LootTable {
         super(new LootItemInterface[]{potions, matstierfour, chestloottierfour});
     }
 
-
-    public static LootTable lootBox;
-    static{
-        lootBox = LootBoxTierFourLootTable.instance;
-    }
 }

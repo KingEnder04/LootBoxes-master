@@ -22,8 +22,4 @@ public class LootBoxTierOneLootTable extends LootTable {
         super(new LootItemInterface[]{orestierone, chestloottierone});
     }
 
-    public static LootTable lootBox;
-    static{
-        lootBox = LootBoxTierOneLootTable.instance;
-    }
 }

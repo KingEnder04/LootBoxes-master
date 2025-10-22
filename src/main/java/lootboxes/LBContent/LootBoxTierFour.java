@@ -1,5 +1,6 @@
 package lootboxes.LBContent;
 
+import lootboxes.LBContent.LootTables.LootBoxPresets;
 import lootboxes.LBContent.LootTables.LootBoxTierFourLootTable;
 import necesse.engine.localization.Localization;
 import necesse.engine.util.GameBlackboard;
@@ -34,7 +35,7 @@ public class LootBoxTierFour extends MultiTextureMatItem {
         return () -> {
             if (container.getClient().isServer()) {
                 ArrayList<InventoryItem> itemList = new ArrayList();
-                LootBoxTierFourLootTable.lootBox.addItems(itemList, GameRandom.globalRandom, 1.0F, new Object[]{container.getClient()});
+                LootBoxPresets.lootBox4.addItems(itemList, GameRandom.globalRandom, 1.0F, new Object[]{container.getClient()});
                 Iterator var4 = itemList.iterator();
 
                 while(var4.hasNext()) {

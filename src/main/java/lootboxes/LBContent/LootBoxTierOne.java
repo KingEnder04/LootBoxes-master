@@ -1,5 +1,6 @@
 package lootboxes.LBContent;
 
+import lootboxes.LBContent.LootTables.LootBoxPresets;
 import lootboxes.LBContent.LootTables.LootBoxTierOneLootTable;
 import necesse.engine.localization.Localization;
 import necesse.engine.util.GameBlackboard;
@@ -11,6 +12,7 @@ import necesse.inventory.container.Container;
 import necesse.inventory.container.ContainerActionResult;
 import necesse.inventory.container.slots.ContainerSlot;
 import necesse.inventory.item.matItem.MultiTextureMatItem;
+import necesse.inventory.lootTable.LootTablePresets;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -34,7 +36,7 @@ public class LootBoxTierOne extends MultiTextureMatItem {
         return () -> {
             if (container.getClient().isServer()) {
                 ArrayList<InventoryItem> itemList = new ArrayList();
-                LootBoxTierOneLootTable.lootBox.addItems(itemList, GameRandom.globalRandom, 1.0F, new Object[]{container.getClient()});
+                LootBoxPresets.lootBox1.addItems(itemList, GameRandom.globalRandom, 1.0F, new Object[]{container.getClient()});
                 Iterator var4 = itemList.iterator();
 
                 while(var4.hasNext()) {

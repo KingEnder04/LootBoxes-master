@@ -22,9 +22,4 @@ public class LootBoxTierTwoLootTable extends LootTable {
     private LootBoxTierTwoLootTable() {
         super(new LootItemInterface[]{potions, matstiertwo, chestloottiertwo});
     }
-
-    public static LootTable lootBox;
-    static{
-        lootBox = LootBoxTierTwoLootTable.instance;
-    }
 }

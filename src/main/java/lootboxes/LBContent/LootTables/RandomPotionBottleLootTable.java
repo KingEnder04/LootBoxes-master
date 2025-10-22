@@ -87,10 +87,4 @@ public class RandomPotionBottleLootTable extends LootTable {
     private RandomPotionBottleLootTable() {
         super(new LootItemInterface[]{potions1, potions2, potions3});
     }
-
-
-    public static LootTable potionBottle;
-    static{
-        potionBottle = RandomPotionBottleLootTable.instance;
-    }
 }

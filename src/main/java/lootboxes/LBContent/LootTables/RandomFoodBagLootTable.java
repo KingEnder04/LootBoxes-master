@@ -184,9 +184,4 @@ public class RandomFoodBagLootTable extends LootTable {
         super(new LootItemInterface[]{food1, food2, food3});
     }
 
-
-    public static LootTable foodBag;
-    static{
-        foodBag = RandomFoodBagLootTable.instance;
-    }
 }
