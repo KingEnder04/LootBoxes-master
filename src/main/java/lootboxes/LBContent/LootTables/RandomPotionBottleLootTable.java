@@ -6,8 +6,8 @@ import necesse.inventory.lootTable.lootItem.LootItem;
 import necesse.inventory.lootTable.lootItem.OneOfLootItems;
 
 public class RandomPotionBottleLootTable extends LootTable {
-    public static final OneOfLootItems potions1 = new OneOfLootItems(LootItem.between("manapotion", 3, 6),
-            new LootItemInterface[]{LootItem.between("manaregenpotion", 3, 6),
+    public static final OneOfLootItems potions1 = new OneOfLootItems(new LootItemInterface[]{LootItem.between("manapotion", 3, 6),
+                    LootItem.between("manaregenpotion", 3, 6),
                     LootItem.between("accuracypotion", 3, 6),
                     LootItem.between("battlepotion", 3, 6),
                     LootItem.between("buildingpotion", 3, 6),
@@ -32,8 +32,8 @@ public class RandomPotionBottleLootTable extends LootTable {
                     LootItem.between("wisdompotion", 3, 6),
             });
 
-    public static final OneOfLootItems potions2 = new OneOfLootItems(LootItem.between("manapotion", 3, 6),
-            new LootItemInterface[]{LootItem.between("manaregenpotion", 3, 6),
+    public static final OneOfLootItems potions2 = new OneOfLootItems(new LootItemInterface[]{LootItem.between("manapotion", 3, 6),
+                    LootItem.between("manaregenpotion", 3, 6),
                     LootItem.between("accuracypotion", 3, 6),
                     LootItem.between("battlepotion", 3, 6),
                     LootItem.between("buildingpotion", 3, 6),
@@ -57,8 +57,8 @@ public class RandomPotionBottleLootTable extends LootTable {
                     LootItem.between("webpotion", 3, 6),
                     LootItem.between("wisdompotion", 3, 6),
             });
-    public static final OneOfLootItems potions3 = new OneOfLootItems(LootItem.between("manapotion", 3, 6),
-            new LootItemInterface[]{LootItem.between("manaregenpotion", 3, 6),
+    public static final OneOfLootItems potions3 = new OneOfLootItems(new LootItemInterface[]{LootItem.between("manapotion", 3, 6),
+                    LootItem.between("manaregenpotion", 3, 6),
                     LootItem.between("accuracypotion", 3, 6),
                     LootItem.between("battlepotion", 3, 6),
                     LootItem.between("buildingpotion", 3, 6),

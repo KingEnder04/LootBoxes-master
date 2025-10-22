@@ -6,8 +6,8 @@ import necesse.inventory.lootTable.lootItem.LootItem;
 import necesse.inventory.lootTable.lootItem.OneOfLootItems;
 
 public class RandomFoodBagLootTable extends LootTable {
-    public static final OneOfLootItems food1 = new OneOfLootItems(LootItem.between("blackcoffee", 1, 3),
-            new LootItemInterface[]{LootItem.between("bread", 1, 3),
+    public static final OneOfLootItems food1 = new OneOfLootItems(new LootItemInterface[]{LootItem.between("blackcoffee", 1, 3),
+                    LootItem.between("bread", 1, 3),
                     LootItem.between("candyapple", 1, 3),
                     LootItem.between("candycane", 1, 3),
                     LootItem.between("cappuccino", 1, 3),
@@ -64,8 +64,8 @@ public class RandomFoodBagLootTable extends LootTable {
                     LootItem.between("wildsalad", 1, 2),
             });
 
-    public static final OneOfLootItems food2 = new OneOfLootItems(LootItem.between("blackcoffee", 1, 3),
-            new LootItemInterface[]{LootItem.between("bread", 1, 3),
+    public static final OneOfLootItems food2 = new OneOfLootItems(new LootItemInterface[]{LootItem.between("blackcoffee", 1, 3),
+                    LootItem.between("bread", 1, 3),
                     LootItem.between("candyapple", 1, 3),
                     LootItem.between("candycane", 1, 3),
                     LootItem.between("cappuccino", 1, 3),
@@ -121,8 +121,8 @@ public class RandomFoodBagLootTable extends LootTable {
                     LootItem.between("tropicalstew", 1, 2),
                     LootItem.between("wildsalad", 1, 2),
             });
-    public static final OneOfLootItems food3 = new OneOfLootItems(LootItem.between("blackcoffee", 1, 3),
-            new LootItemInterface[]{LootItem.between("bread", 1, 3),
+    public static final OneOfLootItems food3 = new OneOfLootItems(new LootItemInterface[]{LootItem.between("blackcoffee", 1, 3),
+                    LootItem.between("bread", 1, 3),
                     LootItem.between("candyapple", 1, 3),
                     LootItem.between("candycane", 1, 3),
                     LootItem.between("cappuccino", 1, 3),
